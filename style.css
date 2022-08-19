@@ -1,0 +1,128 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper {
+    margin: auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header {
+    padding: 20px;
+    height: fit-content;
+    text-align: center;
+}
+
+.nav-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.nav-list li {
+    display: inline;
+    margin: 0 30px 0 30px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: lightcoral;
+}
+
+.welcoming-container {
+    display: flex;
+    width: 100%;
+    height: 900px;
+    background: url("background.jpg");
+}
+
+.welcoming-text-container {
+    background-color: rgba(128,128,128, 0.3);
+    height: fit-content;
+    margin:250px 0 0 100px;
+}
+
+.welcoming-text1 {
+    font-size: 90px;
+    color: white;
+    padding: 50px 0 50px;
+}
+
+.welcoming-text2 {
+    color: white;
+    margin: 50px 0 50px;
+}
+
+.info-container a {
+    text-decoration: none;
+    color: lightcoral;
+}
+
+.info-container a:hover {
+    color: mediumorchid;
+}
+
+section h2 {
+    color: lightcoral;
+}
+
+.nav-link:hover {
+    color: lightcoral;
+}
+
+.divide {
+    background-color: lavenderblush;
+    padding: 20px 0 20px 80px;
+    margin-bottom: 50px;
+    border-radius: 30px;
+}
+
+.cats-list {
+    list-style-type: none;
+    width: fit-content;
+    padding: 5px;
+}
+
+.cats-list li::before {
+    content: "♡";
+    padding: 5px;
+    background-color: white;
+    color: lightcoral;
+}
+
+.cats-list li {
+    border: 1px solid white;
+    background-color: lightcoral;
+    color: white;
+    padding: 5px 0 5px 0;
+}
+
+.cats-list span {
+    padding: 10px;
+}
+
+.games-list {
+    list-style-type: none;
+}
+
+.games-list li::before {
+    content: "💩";
+    padding-right: 5px;
+}
+
+.meme-table {
+    background-color: lightcoral;
+    color: white;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.meme-table td {
+    border: 1px solid white;
+    padding: 10px;
+}
+
+.meme-table th {
+    border: 1px solid white;
+    padding: 10px;
+}
